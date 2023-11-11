@@ -34,3 +34,15 @@ function playRound(playerSelection, computerSelection) {
         return 'Player made an illegal move!';
     }
 }
+
+function play() {
+    let playerSelection = prompt('Play rock, paper, or scissors');
+    let computerSelection = getComputerChoice();
+    console.log(playRound(playerSelection, computerSelection));
+}
+
+play();
+play();
+play();
+play();
+play();
